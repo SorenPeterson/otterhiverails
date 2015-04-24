@@ -1,0 +1,9 @@
+I, [2015-04-24T16:49:46.050452 #23936]  INFO -- : Refreshing Gem list
+I, [2015-04-24T16:49:49.165696 #23936]  INFO -- : listening on addr=/home/noface/otterhiverails/shared/sockets/unicorn.sock fd=11
+I, [2015-04-24T16:49:49.165896 #23936]  INFO -- : worker=0 spawning...
+I, [2015-04-24T16:49:49.167681 #23936]  INFO -- : worker=1 spawning...
+I, [2015-04-24T16:49:49.168798 #23936]  INFO -- : master process ready
+I, [2015-04-24T16:49:49.176178 #23939]  INFO -- : worker=0 spawned pid=23939
+I, [2015-04-24T16:49:49.177741 #23941]  INFO -- : worker=1 spawned pid=23941
+I, [2015-04-24T16:49:49.185639 #23941]  INFO -- : worker=1 ready
+I, [2015-04-24T16:49:49.192467 #23939]  INFO -- : worker=0 ready
