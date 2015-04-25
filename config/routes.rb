@@ -1,20 +1,8 @@
 Rails.application.routes.draw do
-  get 'portfolio/new'
-
-  get 'portfolio/create'
-
-  get 'portfolio/update'
-
-  get 'portfolio/edit'
-
-  get 'portfolio/destroy'
-
-  get 'portfolio/index'
-
-  get 'portfolio/show'
-
   root 'welcome#index'
   get 'info' => 'welcome#info'
+
+  resources :portfolio
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
