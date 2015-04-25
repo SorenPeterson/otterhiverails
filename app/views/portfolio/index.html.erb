@@ -1,2 +1,19 @@
-<h1>Portfolio#index</h1>
-<p>Find me in app/views/portfolio/index.html.erb</p>
+<%= render 'partials/header' %>
+
+<div class="container">
+  <div class="portfolio-list">
+    <ul>
+      <% @projects.each do |item| %>
+        <li>
+          <img class="portfolio-sample" src="<%= item.image %>">
+
+          <h3><a href="<%= item.link %>"><%= item.title %></h3></a>
+
+          <p><%= item.description %></p>
+
+          <div class="clr-both"></div>
+        </li>
+      <% end %>
+    </ul>
+  </div>
+</div>
