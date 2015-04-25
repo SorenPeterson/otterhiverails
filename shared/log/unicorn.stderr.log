@@ -7,3 +7,44 @@ I, [2015-04-24T16:49:49.176178 #23939]  INFO -- : worker=0 spawned pid=23939
 I, [2015-04-24T16:49:49.177741 #23941]  INFO -- : worker=1 spawned pid=23941
 I, [2015-04-24T16:49:49.185639 #23941]  INFO -- : worker=1 ready
 I, [2015-04-24T16:49:49.192467 #23939]  INFO -- : worker=0 ready
+I, [2015-04-24T16:57:26.992878 #24733]  INFO -- : executing ["/home/noface/.rbenv/versions/2.2.1/bin/unicorn", "-c", "config/unicorn.rb", "-E", "production", "-D", {11=>#<Kgio::UNIXServer:/home/noface/otterhiverails/shared/sockets/unicorn.sock>}] (in /home/noface/otterhiverails)
+I, [2015-04-24T16:57:26.993377 #24733]  INFO -- : forked child re-executing...
+I, [2015-04-24T16:57:27.445781 #24733]  INFO -- : inherited addr=/home/noface/otterhiverails/shared/sockets/unicorn.sock fd=11
+I, [2015-04-24T16:57:27.446136 #24733]  INFO -- : Refreshing Gem list
+I, [2015-04-24T16:57:29.965762 #24733]  INFO -- : worker=0 spawning...
+I, [2015-04-24T16:57:29.968060 #24733]  INFO -- : worker=1 spawning...
+I, [2015-04-24T16:57:29.969171 #24733]  INFO -- : master process ready
+I, [2015-04-24T16:57:29.970293 #24737]  INFO -- : worker=0 spawned pid=24737
+I, [2015-04-24T16:57:29.972218 #24739]  INFO -- : worker=1 spawned pid=24739
+I, [2015-04-24T16:57:29.978305 #24737]  INFO -- : worker=0 ready
+I, [2015-04-24T16:57:29.979082 #24739]  INFO -- : worker=1 ready
+E, [2015-04-24T19:13:57.922041 #24733] ERROR -- : old PID:23936 running with existing pid=/home/noface/otterhiverails/shared/pids/unicorn.pid.oldbin, refusing rexec
+E, [2015-04-24T19:14:57.335072 #24733] ERROR -- : old PID:23936 running with existing pid=/home/noface/otterhiverails/shared/pids/unicorn.pid.oldbin, refusing rexec
+I, [2015-04-24T19:15:10.895253 #24733]  INFO -- : reaped #<Process::Status: pid 24737 exit 0> worker=0
+I, [2015-04-24T19:15:10.895520 #24733]  INFO -- : reaped #<Process::Status: pid 24739 exit 0> worker=1
+I, [2015-04-24T19:15:10.895779 #24733]  INFO -- : master complete
+E, [2015-04-24T19:15:10.992993 #23936] ERROR -- : reaped #<Process::Status: pid 24733 exit 0> exec()-ed
+I, [2015-04-24T19:15:21.812185 #23936]  INFO -- : reaped #<Process::Status: pid 23939 exit 0> worker=0
+I, [2015-04-24T19:15:21.812365 #23936]  INFO -- : reaped #<Process::Status: pid 23941 exit 0> worker=1
+I, [2015-04-24T19:15:21.812485 #23936]  INFO -- : master complete
+I, [2015-04-24T19:15:31.865479 #25567]  INFO -- : Refreshing Gem list
+I, [2015-04-24T19:15:33.469380 #25567]  INFO -- : unlinking existing socket=/home/noface/otterhiverails/shared/sockets/unicorn.sock
+I, [2015-04-24T19:15:33.469645 #25567]  INFO -- : listening on addr=/home/noface/otterhiverails/shared/sockets/unicorn.sock fd=11
+I, [2015-04-24T19:15:33.469809 #25567]  INFO -- : worker=0 spawning...
+I, [2015-04-24T19:15:33.471568 #25567]  INFO -- : worker=1 spawning...
+I, [2015-04-24T19:15:33.472480 #25567]  INFO -- : master process ready
+I, [2015-04-24T19:15:33.480386 #25570]  INFO -- : worker=0 spawned pid=25570
+I, [2015-04-24T19:15:33.488298 #25572]  INFO -- : worker=1 spawned pid=25572
+I, [2015-04-24T19:15:33.498696 #25572]  INFO -- : worker=1 ready
+I, [2015-04-24T19:15:33.494923 #25570]  INFO -- : worker=0 ready
+I, [2015-04-25T01:05:06.515231 #26644]  INFO -- : executing ["/home/noface/.rbenv/versions/2.2.1/bin/unicorn", "-c", "config/unicorn.rb", "-E", "production", "-D", {11=>#<Kgio::UNIXServer:/home/noface/otterhiverails/shared/sockets/unicorn.sock>}] (in /home/noface/otterhiverails)
+I, [2015-04-25T01:05:06.515796 #26644]  INFO -- : forked child re-executing...
+I, [2015-04-25T01:05:07.119542 #26644]  INFO -- : inherited addr=/home/noface/otterhiverails/shared/sockets/unicorn.sock fd=11
+I, [2015-04-25T01:05:07.119921 #26644]  INFO -- : Refreshing Gem list
+I, [2015-04-25T01:05:08.807604 #26644]  INFO -- : worker=0 spawning...
+I, [2015-04-25T01:05:08.809300 #26644]  INFO -- : worker=1 spawning...
+I, [2015-04-25T01:05:08.810141 #26648]  INFO -- : worker=0 spawned pid=26648
+I, [2015-04-25T01:05:08.812152 #26644]  INFO -- : master process ready
+I, [2015-04-25T01:05:08.813540 #26651]  INFO -- : worker=1 spawned pid=26651
+I, [2015-04-25T01:05:08.822753 #26651]  INFO -- : worker=1 ready
+I, [2015-04-25T01:05:08.823506 #26648]  INFO -- : worker=0 ready
