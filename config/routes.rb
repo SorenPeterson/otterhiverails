@@ -1,4 +1,18 @@
 Rails.application.routes.draw do
+  get 'portfolio/new'
+
+  get 'portfolio/create'
+
+  get 'portfolio/update'
+
+  get 'portfolio/edit'
+
+  get 'portfolio/destroy'
+
+  get 'portfolio/index'
+
+  get 'portfolio/show'
+
   root 'welcome#index'
   get 'info' => 'welcome#info'
 
