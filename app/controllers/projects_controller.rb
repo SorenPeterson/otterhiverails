@@ -7,8 +7,10 @@ class ProjectsController < ApplicationController
     directory = "public/img/projects"
     path = File.join(directory, name)
     File.open(path, "wb") { |f| f.write(params[:project][:image].read) }
-    # redirect_to "/projects/new"
-    redirect_to '/img/projects/' + name
+
+    Project.create(project_params.merge(image: name))
+
+    redirect_to "/projects"
   end
 
   def update
@@ -25,5 +27,9 @@ class ProjectsController < ApplicationController
   end
 
   def show
+  end
+
+  def project_params
+    params.require(:project).permit(:title, :description, :link)
   end
 end
