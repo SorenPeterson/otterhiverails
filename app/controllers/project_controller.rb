@@ -1,4 +1,4 @@
-class PortfolioController < ApplicationController
+class ProjectController < ApplicationController
   def new
   end
 
@@ -15,6 +15,7 @@ class PortfolioController < ApplicationController
   end
 
   def index
+    @projects = Project.all
   end
 
   def show
