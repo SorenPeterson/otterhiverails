@@ -1,3 +1,24 @@
 <h1>Add a new project</h1>
 <%= form_for Project.new do |f| %>
+  <%= f.label :title %>
+  <%= f.text_field :title %>
+
+  <br>
+
+  <%= f.label :link %>
+  <%= f.text_field :link %>
+
+  <br>
+
+  <%= f.label :upload_an_image %>
+  <%= f.file_field :image %>
+
+  <br>
+
+  <%= f.label :description %>
+  <%= f.text_area :description %>
+
+  <br>
+
+  <%= f.submit %>
 <% end %>
