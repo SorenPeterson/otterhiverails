@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get 'resumes/index'
+
   root 'welcome#index'
   get 'info' => 'welcome#info'
 
