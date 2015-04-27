@@ -1,11 +1,16 @@
 class WelcomeController < ApplicationController
   before_filter :log_visitor
+  http_basic_authenticate_with name: 'otter', password: 'hive', only: ['authenticate']
 
   def index
   end
 
   def info
     @visitor_count = Visitor.count
+  end
+
+  def authenticate
+    render inline: 'loggin\' you  in sonny'
   end
 
   private

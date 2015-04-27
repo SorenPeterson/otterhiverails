@@ -4,4 +4,7 @@ class ResumesController < ApplicationController
   def index
     render layout: false
   end
+
+  def is_admin?
+  end
 end
