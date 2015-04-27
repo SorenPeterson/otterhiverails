@@ -13,7 +13,7 @@ class ProjectsController < ApplicationController
     end
 
     name ||= ''
-    Project.create(project_params.merge(image: name))
+    Project.create(project_params.merge(image: name, order_id: Project.count))
 
     redirect_to "/projects"
   end
@@ -30,7 +30,9 @@ class ProjectsController < ApplicationController
 
   def destroy
     @project = Project.find(params[:id])
+    id = @project.order_id
     @project.destroy
+    Project.update_counters(Project.where('order_id > ?', id), :order_id => -1)
     redirect_to "/projects"
   end
 
