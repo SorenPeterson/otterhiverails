@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  get 'login', to: 'welcome#authenticate'
+  get 'admin', to: 'welcome#authenticate'
 
   get 'resumes/index'
 
