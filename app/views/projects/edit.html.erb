@@ -1,2 +1,25 @@
-<h1>Portfolio#edit</h1>
-<p>Find me in app/views/portfolio/edit.html.erb</p>
+<a href="/projects">Back</a>
+<h1>Edit <%= @project.title %></h1>
+<%= form_for @project do |f| %>
+  <%= f.label :title %>
+  <%= f.text_field :title %>
+
+  <br>
+
+  <%= f.label :link %>
+  <%= f.text_field :link %>
+
+  <br>
+
+  <%= f.label :upload_an_image %>
+  <%= f.file_field :image %>
+
+  <br>
+
+  <%= f.label :description %>
+  <%= f.text_area :description %>
+
+  <br>
+
+  <%= f.submit %>
+<% end %>
