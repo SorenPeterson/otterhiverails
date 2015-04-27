@@ -26,6 +26,9 @@ class ProjectsController < ApplicationController
   end
 
   def destroy
+    @project = Project.find(params[:id])
+    @project.destroy
+    redirect_to "/projects"
   end
 
   def index
@@ -33,6 +36,11 @@ class ProjectsController < ApplicationController
   end
 
   def show
+  end
+
+  private
+
+  def save_file(filename)
   end
 
   def project_params
