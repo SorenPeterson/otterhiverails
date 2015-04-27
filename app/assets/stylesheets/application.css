@@ -98,3 +98,27 @@ a {
   text-decoration: none;
   color: #58A1D1;
 }
+
+/* Sidebar */
+.sidebar.tray {
+  position: absolute;
+  margin: 20px;
+  right: 0;
+  top: 0;
+}
+
+/* Rainbow */
+.rainbow {
+  background-image: -webkit-gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  background-image: gradient( linear, left top, right top, color-stop(0, #f22), color-stop(0.15, #f2f), color-stop(0.3, #22f), color-stop(0.45, #2ff), color-stop(0.6, #2f2),color-stop(0.75, #2f2), color-stop(0.9, #ff2), color-stop(1, #f22) );
+  color:transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
+
+.button {
+  padding: 5px;
+  box-shadow: 0 5px 10px grey;
+  border-radius: 5px;
+  border: 1px solid salmon;
+}
