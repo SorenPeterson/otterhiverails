@@ -1,4 +1,6 @@
 class ProjectsController < ApplicationController
+  skip_before_filter :require_admin, only: ['index']
+
   def new
   end
 

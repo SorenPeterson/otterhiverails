@@ -1,3 +1,6 @@
+<% if is_admin? %>
+  <a href="/projects/new">Add a project</a>
+<% end %>
 <div class="container">
   <div class="portfolio-list">
     <ul>
@@ -10,6 +13,14 @@
           <p><%= item.description %></p>
 
           <div class="clr-both"></div>
+
+          <% if is_admin? %>
+            <a href="">Edit</a>
+
+            <a href="">Move Up</a>
+
+            <a href="">Move Down</a>
+          <% end %>
         </li>
       <% end %>
     </ul>

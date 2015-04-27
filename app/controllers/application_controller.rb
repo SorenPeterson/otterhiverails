@@ -12,6 +12,8 @@ class ApplicationController < ActionController::Base
     end
   end
 
+  helper_method :is_admin?
+
   def is_admin?
     session[:is_admin] == true
   end

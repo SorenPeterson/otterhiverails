@@ -13,7 +13,7 @@ class WelcomeController < ApplicationController
 
   def authenticate
     session[:is_admin] = true
-    redirect_to session.delete(:return_to)
+    redirect_to session.delete(:return_to) || '/'
   end
 
   private
