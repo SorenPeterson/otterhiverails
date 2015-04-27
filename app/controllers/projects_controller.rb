@@ -5,11 +5,14 @@ class ProjectsController < ApplicationController
   end
 
   def create
-    name = params[:project][:image].original_filename
-    directory = "public/img/projects"
-    path = File.join(directory, name)
-    File.open(path, "wb") { |f| f.write(params[:project][:image].read) }
+    if(params[:project][:image])
+      name = params[:project][:image].original_filename
+      directory = "public/img/projects"
+      path = File.join(directory, name)
+      File.open(path, "wb") { |f| f.write(params[:project][:image].read) }
+    end
 
+    name ||= ''
     Project.create(project_params.merge(image: name))
 
     redirect_to "/projects"
