@@ -5,6 +5,7 @@ Rails.application.routes.draw do
 
   root 'welcome#index'
   get 'info' => 'welcome#info'
+  get 'background/:name', to: 'welcome#background'
 
   resources :projects, except: ['destroy'] do
     member do

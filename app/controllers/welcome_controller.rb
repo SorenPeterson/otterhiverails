@@ -16,6 +16,15 @@ class WelcomeController < ApplicationController
     redirect_to request.referer || '/'
   end
 
+  def background
+    if params[:name] == 'none'
+      session.delete(:background)
+    else
+      session[:background] = params[:name] + '.' + params[:format]
+    end
+    redirect_to :back
+  end
+
   private
 
   def log_visitor
