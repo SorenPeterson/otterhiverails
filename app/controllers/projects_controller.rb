@@ -37,26 +37,29 @@ class ProjectsController < ApplicationController
   end
 
   def index
-    @projects = Project.all
+    @projects = Project.order(order_id: :desc)
   end
 
   def show
   end
 
   def moveup
-    project = Project.find(params[:id])
-    above = Project.find_by(order_id: project.order_id + 1)
-    debugger
-    new_order_id = above.order_id
-    project.order_id = -1
-    project.save
-    above.order_id.decrement
-    project.order_id = new_order_id
-    project.save
+    project = Project.find_by(order_id: params[:id])
+    above = Project.find_by(order_id: params[:id].to_i + 1)
+    unless above == nil
+      new_order_id = above.order_id
+      project.order_id = -1
+      project.save
+      above.order_id -= 1
+      above.save
+      project.order_id = new_order_id
+      project.save
+    end
     redirect_to '/projects'
   end
 
   def movedown
+    redirect_to (params[:id] == '0' ? '/projects' : "/projects/#{params[:id].to_i - 1}/moveup")
   end
 
   private

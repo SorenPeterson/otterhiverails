@@ -19,9 +19,9 @@
           <% if is_admin? %>
             <a href="/projects/<%= item.id %>/edit">Edit</a>
 
-            <a href="/projects/<%= item.id %>/moveup">Move Up</a>
+            <a href="/projects/<%= item.order_id %>/moveup">Move Up</a>
 
-            <a href="">Move Down</a>
+            <a href="/projects/<%= item.order_id %>/movedown">Move Down</a>
           <% end %>
         </li>
       <% end %>
