@@ -43,6 +43,22 @@ class ProjectsController < ApplicationController
   def show
   end
 
+  def moveup
+    project = Project.find(params[:id])
+    above = Project.find_by(order_id: project.order_id + 1)
+    debugger
+    new_order_id = above.order_id
+    project.order_id = -1
+    project.save
+    above.order_id.decrement
+    project.order_id = new_order_id
+    project.save
+    redirect_to '/projects'
+  end
+
+  def movedown
+  end
+
   private
 
   def save_file(filename)

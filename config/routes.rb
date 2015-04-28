@@ -6,7 +6,12 @@ Rails.application.routes.draw do
   root 'welcome#index'
   get 'info' => 'welcome#info'
 
-  resources :projects, except: ['destroy']
+  resources :projects, except: ['destroy'] do
+    member do
+      get :moveup
+      get :movedown
+    end
+  end
   get 'projects/:id/delete', to: 'projects#destroy'
 
   # The priority is based upon order of creation: first created -> highest priority.
