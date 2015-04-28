@@ -48,3 +48,271 @@ I, [2015-04-25T01:05:08.812152 #26644]  INFO -- : master process ready
 I, [2015-04-25T01:05:08.813540 #26651]  INFO -- : worker=1 spawned pid=26651
 I, [2015-04-25T01:05:08.822753 #26651]  INFO -- : worker=1 ready
 I, [2015-04-25T01:05:08.823506 #26648]  INFO -- : worker=0 ready
+E, [2015-04-25T01:10:23.866846 #26644] ERROR -- : old PID:25567 running with existing pid=/home/noface/otterhiverails/shared/pids/unicorn.pid.oldbin, refusing rexec
+E, [2015-04-25T01:18:46.382031 #26644] ERROR -- : old PID:25567 running with existing pid=/home/noface/otterhiverails/shared/pids/unicorn.pid.oldbin, refusing rexec
+E, [2015-04-25T01:18:52.918260 #26644] ERROR -- : old PID:25567 running with existing pid=/home/noface/otterhiverails/shared/pids/unicorn.pid.oldbin, refusing rexec
+E, [2015-04-25T01:24:51.902602 #26644] ERROR -- : old PID:25567 running with existing pid=/home/noface/otterhiverails/shared/pids/unicorn.pid.oldbin, refusing rexec
+I, [2015-04-25T01:25:50.802742 #26644]  INFO -- : reaped #<Process::Status: pid 26648 exit 0> worker=0
+I, [2015-04-25T01:25:50.803156 #26644]  INFO -- : reaped #<Process::Status: pid 26651 exit 0> worker=1
+I, [2015-04-25T01:25:50.803347 #26644]  INFO -- : master complete
+E, [2015-04-25T01:25:50.902863 #25567] ERROR -- : reaped #<Process::Status: pid 26644 exit 0> exec()-ed
+I, [2015-04-25T01:26:41.112041 #25567]  INFO -- : reaped #<Process::Status: pid 25570 exit 0> worker=0
+I, [2015-04-25T01:26:41.112268 #25567]  INFO -- : reaped #<Process::Status: pid 25572 exit 0> worker=1
+I, [2015-04-25T01:26:41.112390 #25567]  INFO -- : master complete
+I, [2015-04-25T01:26:57.089067 #1100]  INFO -- : Refreshing Gem list
+I, [2015-04-25T01:27:01.473485 #1100]  INFO -- : unlinking existing socket=/home/noface/otterhiverails/shared/sockets/unicorn.sock
+I, [2015-04-25T01:27:01.474411 #1100]  INFO -- : listening on addr=/home/noface/otterhiverails/shared/sockets/unicorn.sock fd=11
+I, [2015-04-25T01:27:01.474935 #1100]  INFO -- : worker=0 spawning...
+I, [2015-04-25T01:27:01.478676 #1100]  INFO -- : worker=1 spawning...
+I, [2015-04-25T01:27:01.480681 #1100]  INFO -- : master process ready
+I, [2015-04-25T01:27:01.489168 #1109]  INFO -- : worker=0 spawned pid=1109
+I, [2015-04-25T01:27:01.496136 #1111]  INFO -- : worker=1 spawned pid=1111
+I, [2015-04-25T01:27:01.536302 #1109]  INFO -- : worker=0 ready
+I, [2015-04-25T01:27:01.541509 #1111]  INFO -- : worker=1 ready
+I, [2015-04-25T01:53:00.761867 #1100]  INFO -- : reaped #<Process::Status: pid 1109 exit 0> worker=0
+I, [2015-04-25T01:53:00.762375 #1100]  INFO -- : reaped #<Process::Status: pid 1111 exit 0> worker=1
+I, [2015-04-25T01:53:00.762605 #1100]  INFO -- : master complete
+I, [2015-04-25T01:53:36.288985 #1754]  INFO -- : Refreshing Gem list
+I, [2015-04-25T01:53:38.824047 #1754]  INFO -- : unlinking existing socket=/home/noface/otterhiverails/shared/sockets/unicorn.sock
+I, [2015-04-25T01:53:38.824287 #1754]  INFO -- : listening on addr=/home/noface/otterhiverails/shared/sockets/unicorn.sock fd=11
+I, [2015-04-25T01:53:38.824413 #1754]  INFO -- : worker=0 spawning...
+I, [2015-04-25T01:53:38.825437 #1754]  INFO -- : worker=1 spawning...
+I, [2015-04-25T01:53:38.827509 #1754]  INFO -- : master process ready
+I, [2015-04-25T01:53:38.836516 #1757]  INFO -- : worker=0 spawned pid=1757
+I, [2015-04-25T01:53:38.840961 #1759]  INFO -- : worker=1 spawned pid=1759
+I, [2015-04-25T01:53:38.847824 #1757]  INFO -- : worker=0 ready
+I, [2015-04-25T01:53:38.848856 #1759]  INFO -- : worker=1 ready
+I, [2015-04-25T01:56:01.957093 #1754]  INFO -- : reaped #<Process::Status: pid 1757 exit 0> worker=0
+I, [2015-04-25T01:56:01.957650 #1754]  INFO -- : reaped #<Process::Status: pid 1759 exit 0> worker=1
+I, [2015-04-25T01:56:01.957852 #1754]  INFO -- : master complete
+I, [2015-04-25T01:56:11.653172 #1967]  INFO -- : Refreshing Gem list
+I, [2015-04-25T01:56:14.375727 #1967]  INFO -- : unlinking existing socket=/home/noface/otterhiverails/shared/sockets/unicorn.sock
+I, [2015-04-25T01:56:14.376033 #1967]  INFO -- : listening on addr=/home/noface/otterhiverails/shared/sockets/unicorn.sock fd=11
+I, [2015-04-25T01:56:14.376201 #1967]  INFO -- : worker=0 spawning...
+I, [2015-04-25T01:56:14.377344 #1967]  INFO -- : worker=1 spawning...
+I, [2015-04-25T01:56:14.378067 #1967]  INFO -- : master process ready
+I, [2015-04-25T01:56:14.383449 #1970]  INFO -- : worker=0 spawned pid=1970
+I, [2015-04-25T01:56:14.391199 #1972]  INFO -- : worker=1 spawned pid=1972
+I, [2015-04-25T01:56:14.401344 #1970]  INFO -- : worker=0 ready
+I, [2015-04-25T01:56:14.402302 #1972]  INFO -- : worker=1 ready
+I, [2015-04-25T02:01:27.950083 #1967]  INFO -- : reaped #<Process::Status: pid 1970 exit 0> worker=0
+I, [2015-04-25T02:01:27.950604 #1967]  INFO -- : reaped #<Process::Status: pid 1972 exit 0> worker=1
+I, [2015-04-25T02:01:27.950857 #1967]  INFO -- : master complete
+I, [2015-04-25T02:01:44.777061 #2295]  INFO -- : Refreshing Gem list
+I, [2015-04-25T02:01:47.077850 #2295]  INFO -- : unlinking existing socket=/home/noface/otterhiverails/shared/sockets/unicorn.sock
+I, [2015-04-25T02:01:47.078082 #2295]  INFO -- : listening on addr=/home/noface/otterhiverails/shared/sockets/unicorn.sock fd=11
+I, [2015-04-25T02:01:47.078231 #2295]  INFO -- : worker=0 spawning...
+I, [2015-04-25T02:01:47.079314 #2295]  INFO -- : worker=1 spawning...
+I, [2015-04-25T02:01:47.079972 #2295]  INFO -- : master process ready
+I, [2015-04-25T02:01:47.087212 #2298]  INFO -- : worker=0 spawned pid=2298
+I, [2015-04-25T02:01:47.093042 #2300]  INFO -- : worker=1 spawned pid=2300
+I, [2015-04-25T02:01:47.097094 #2300]  INFO -- : worker=1 ready
+I, [2015-04-25T02:01:47.099307 #2298]  INFO -- : worker=0 ready
+I, [2015-04-25T02:01:57.214389 #2295]  INFO -- : reaped #<Process::Status: pid 2298 exit 0> worker=0
+I, [2015-04-25T02:01:57.214968 #2295]  INFO -- : reaped #<Process::Status: pid 2300 exit 0> worker=1
+I, [2015-04-25T02:01:57.215262 #2295]  INFO -- : master complete
+I, [2015-04-25T02:02:18.322160 #1108]  INFO -- : Refreshing Gem list
+I, [2015-04-25T02:02:22.030841 #1108]  INFO -- : unlinking existing socket=/home/noface/otterhiverails/shared/sockets/unicorn.sock
+I, [2015-04-25T02:02:22.031169 #1108]  INFO -- : listening on addr=/home/noface/otterhiverails/shared/sockets/unicorn.sock fd=11
+I, [2015-04-25T02:02:22.031335 #1108]  INFO -- : worker=0 spawning...
+I, [2015-04-25T02:02:22.036744 #1108]  INFO -- : worker=1 spawning...
+I, [2015-04-25T02:02:22.037637 #1108]  INFO -- : master process ready
+I, [2015-04-25T02:02:22.045536 #1137]  INFO -- : worker=0 spawned pid=1137
+I, [2015-04-25T02:02:22.048898 #1139]  INFO -- : worker=1 spawned pid=1139
+I, [2015-04-25T02:02:22.072919 #1137]  INFO -- : worker=0 ready
+I, [2015-04-25T02:02:22.052233 #1139]  INFO -- : worker=1 ready
+I, [2015-04-25T02:08:57.114221 #1108]  INFO -- : reaped #<Process::Status: pid 1137 exit 0> worker=0
+I, [2015-04-25T02:08:57.114992 #1108]  INFO -- : reaped #<Process::Status: pid 1139 exit 0> worker=1
+I, [2015-04-25T02:08:57.115147 #1108]  INFO -- : master complete
+I, [2015-04-25T02:09:05.911812 #1582]  INFO -- : Refreshing Gem list
+I, [2015-04-25T02:09:08.669830 #1582]  INFO -- : unlinking existing socket=/home/noface/otterhiverails/shared/sockets/unicorn.sock
+I, [2015-04-25T02:09:08.670096 #1582]  INFO -- : listening on addr=/home/noface/otterhiverails/shared/sockets/unicorn.sock fd=11
+I, [2015-04-25T02:09:08.670244 #1582]  INFO -- : worker=0 spawning...
+I, [2015-04-25T02:09:08.671341 #1582]  INFO -- : worker=1 spawning...
+I, [2015-04-25T02:09:08.672429 #1582]  INFO -- : master process ready
+I, [2015-04-25T02:09:08.677771 #1585]  INFO -- : worker=0 spawned pid=1585
+I, [2015-04-25T02:09:08.685278 #1587]  INFO -- : worker=1 spawned pid=1587
+I, [2015-04-25T02:09:08.695635 #1585]  INFO -- : worker=0 ready
+I, [2015-04-25T02:09:08.697143 #1587]  INFO -- : worker=1 ready
+I, [2015-04-25T02:38:50.954196 #1582]  INFO -- : reaped #<Process::Status: pid 1585 exit 0> worker=0
+I, [2015-04-25T02:38:50.954591 #1582]  INFO -- : reaped #<Process::Status: pid 1587 exit 0> worker=1
+I, [2015-04-25T02:38:50.954863 #1582]  INFO -- : master complete
+I, [2015-04-25T02:39:02.346024 #1910]  INFO -- : Refreshing Gem list
+I, [2015-04-25T02:39:04.775312 #1910]  INFO -- : unlinking existing socket=/home/noface/otterhiverails/shared/sockets/unicorn.sock
+I, [2015-04-25T02:39:04.775597 #1910]  INFO -- : listening on addr=/home/noface/otterhiverails/shared/sockets/unicorn.sock fd=11
+I, [2015-04-25T02:39:04.775765 #1910]  INFO -- : worker=0 spawning...
+I, [2015-04-25T02:39:04.777053 #1910]  INFO -- : worker=1 spawning...
+I, [2015-04-25T02:39:04.777751 #1910]  INFO -- : master process ready
+I, [2015-04-25T02:39:04.785539 #1913]  INFO -- : worker=0 spawned pid=1913
+I, [2015-04-25T02:39:04.792136 #1915]  INFO -- : worker=1 spawned pid=1915
+I, [2015-04-25T02:39:04.796165 #1915]  INFO -- : worker=1 ready
+I, [2015-04-25T02:39:04.801079 #1913]  INFO -- : worker=0 ready
+I, [2015-04-25T19:30:00.855591 #1910]  INFO -- : reaped #<Process::Status: pid 1913 exit 0> worker=0
+I, [2015-04-25T19:30:00.857143 #1910]  INFO -- : reaped #<Process::Status: pid 1915 exit 0> worker=1
+I, [2015-04-25T19:30:00.857317 #1910]  INFO -- : master complete
+I, [2015-04-25T19:30:04.389386 #4671]  INFO -- : Refreshing Gem list
+I, [2015-04-25T19:30:07.029490 #4671]  INFO -- : unlinking existing socket=/home/noface/otterhiverails/shared/sockets/unicorn.sock
+I, [2015-04-25T19:30:07.029847 #4671]  INFO -- : listening on addr=/home/noface/otterhiverails/shared/sockets/unicorn.sock fd=11
+I, [2015-04-25T19:30:07.030053 #4671]  INFO -- : worker=0 spawning...
+I, [2015-04-25T19:30:07.032177 #4671]  INFO -- : worker=1 spawning...
+I, [2015-04-25T19:30:07.033204 #4674]  INFO -- : worker=0 spawned pid=4674
+I, [2015-04-25T19:30:07.034856 #4671]  INFO -- : master process ready
+I, [2015-04-25T19:30:07.049092 #4677]  INFO -- : worker=1 spawned pid=4677
+I, [2015-04-25T19:30:07.057083 #4674]  INFO -- : worker=0 ready
+I, [2015-04-25T19:30:07.059151 #4677]  INFO -- : worker=1 ready
+I, [2015-04-25T19:30:09.550608 #4671]  INFO -- : reaped #<Process::Status: pid 4674 exit 0> worker=0
+I, [2015-04-25T19:30:09.550744 #4671]  INFO -- : reaped #<Process::Status: pid 4677 exit 0> worker=1
+I, [2015-04-25T19:30:09.550844 #4671]  INFO -- : master complete
+I, [2015-04-25T19:30:24.154769 #4887]  INFO -- : Refreshing Gem list
+I, [2015-04-25T19:30:25.685816 #4887]  INFO -- : unlinking existing socket=/home/noface/otterhiverails/shared/sockets/unicorn.sock
+I, [2015-04-25T19:30:25.686074 #4887]  INFO -- : listening on addr=/home/noface/otterhiverails/shared/sockets/unicorn.sock fd=11
+I, [2015-04-25T19:30:25.686230 #4887]  INFO -- : worker=0 spawning...
+I, [2015-04-25T19:30:25.687537 #4887]  INFO -- : worker=1 spawning...
+I, [2015-04-25T19:30:25.688481 #4887]  INFO -- : master process ready
+I, [2015-04-25T19:30:25.693310 #4890]  INFO -- : worker=0 spawned pid=4890
+I, [2015-04-25T19:30:25.701077 #4892]  INFO -- : worker=1 spawned pid=4892
+I, [2015-04-25T19:30:25.708832 #4890]  INFO -- : worker=0 ready
+I, [2015-04-25T19:30:25.709253 #4892]  INFO -- : worker=1 ready
+I, [2015-04-25T19:32:31.958762 #4887]  INFO -- : reaped #<Process::Status: pid 4890 exit 0> worker=0
+I, [2015-04-25T19:32:31.958977 #4887]  INFO -- : reaped #<Process::Status: pid 4892 exit 0> worker=1
+I, [2015-04-25T19:32:31.959070 #4887]  INFO -- : master complete
+I, [2015-04-25T19:32:39.438904 #5111]  INFO -- : Refreshing Gem list
+I, [2015-04-25T19:32:40.974236 #5111]  INFO -- : unlinking existing socket=/home/noface/otterhiverails/shared/sockets/unicorn.sock
+I, [2015-04-25T19:32:40.974452 #5111]  INFO -- : listening on addr=/home/noface/otterhiverails/shared/sockets/unicorn.sock fd=11
+I, [2015-04-25T19:32:40.974594 #5111]  INFO -- : worker=0 spawning...
+I, [2015-04-25T19:32:40.975673 #5111]  INFO -- : worker=1 spawning...
+I, [2015-04-25T19:32:40.976410 #5111]  INFO -- : master process ready
+I, [2015-04-25T19:32:40.981231 #5114]  INFO -- : worker=0 spawned pid=5114
+I, [2015-04-25T19:32:40.989038 #5116]  INFO -- : worker=1 spawned pid=5116
+I, [2015-04-25T19:32:40.996352 #5114]  INFO -- : worker=0 ready
+I, [2015-04-25T19:32:40.996835 #5116]  INFO -- : worker=1 ready
+I, [2015-04-25T19:37:22.180707 #5111]  INFO -- : reaped #<Process::Status: pid 5114 exit 0> worker=0
+I, [2015-04-25T19:37:22.180892 #5111]  INFO -- : reaped #<Process::Status: pid 5116 exit 0> worker=1
+I, [2015-04-25T19:37:22.181003 #5111]  INFO -- : master complete
+I, [2015-04-25T19:37:36.678886 #5338]  INFO -- : Refreshing Gem list
+I, [2015-04-25T19:37:38.218740 #5338]  INFO -- : unlinking existing socket=/home/noface/otterhiverails/shared/sockets/unicorn.sock
+I, [2015-04-25T19:37:38.218967 #5338]  INFO -- : listening on addr=/home/noface/otterhiverails/shared/sockets/unicorn.sock fd=11
+I, [2015-04-25T19:37:38.219115 #5338]  INFO -- : worker=0 spawning...
+I, [2015-04-25T19:37:38.220257 #5338]  INFO -- : worker=1 spawning...
+I, [2015-04-25T19:37:38.221167 #5338]  INFO -- : master process ready
+I, [2015-04-25T19:37:38.229055 #5341]  INFO -- : worker=0 spawned pid=5341
+I, [2015-04-25T19:37:38.234512 #5343]  INFO -- : worker=1 spawned pid=5343
+I, [2015-04-25T19:37:38.242245 #5343]  INFO -- : worker=1 ready
+I, [2015-04-25T19:37:38.242716 #5341]  INFO -- : worker=0 ready
+I, [2015-04-27T00:52:10.805818 #5338]  INFO -- : reaped #<Process::Status: pid 5341 exit 0> worker=0
+I, [2015-04-27T00:52:10.807612 #5338]  INFO -- : reaped #<Process::Status: pid 5343 exit 0> worker=1
+I, [2015-04-27T00:52:10.807878 #5338]  INFO -- : master complete
+I, [2015-04-27T00:52:14.429012 #11036]  INFO -- : Refreshing Gem list
+I, [2015-04-27T00:52:17.066672 #11036]  INFO -- : unlinking existing socket=/home/noface/otterhiverails/shared/sockets/unicorn.sock
+I, [2015-04-27T00:52:17.066995 #11036]  INFO -- : listening on addr=/home/noface/otterhiverails/shared/sockets/unicorn.sock fd=11
+I, [2015-04-27T00:52:17.067159 #11036]  INFO -- : worker=0 spawning...
+I, [2015-04-27T00:52:17.068989 #11036]  INFO -- : worker=1 spawning...
+I, [2015-04-27T00:52:17.070061 #11036]  INFO -- : master process ready
+I, [2015-04-27T00:52:17.077423 #11039]  INFO -- : worker=0 spawned pid=11039
+I, [2015-04-27T00:52:17.079417 #11041]  INFO -- : worker=1 spawned pid=11041
+I, [2015-04-27T00:52:17.087663 #11039]  INFO -- : worker=0 ready
+I, [2015-04-27T00:52:17.094643 #11041]  INFO -- : worker=1 ready
+I, [2015-04-27T12:24:51.536611 #11036]  INFO -- : reaped #<Process::Status: pid 11039 exit 0> worker=0
+I, [2015-04-27T12:24:51.538085 #11036]  INFO -- : reaped #<Process::Status: pid 11041 exit 0> worker=1
+I, [2015-04-27T12:24:51.538496 #11036]  INFO -- : master complete
+I, [2015-04-27T12:25:06.410541 #13240]  INFO -- : Refreshing Gem list
+I, [2015-04-27T12:25:09.611124 #13240]  INFO -- : unlinking existing socket=/home/noface/otterhiverails/shared/sockets/unicorn.sock
+I, [2015-04-27T12:25:09.614650 #13240]  INFO -- : listening on addr=/home/noface/otterhiverails/shared/sockets/unicorn.sock fd=11
+I, [2015-04-27T12:25:09.614997 #13240]  INFO -- : worker=0 spawning...
+I, [2015-04-27T12:25:09.617766 #13240]  INFO -- : worker=1 spawning...
+I, [2015-04-27T12:25:09.619562 #13243]  INFO -- : worker=0 spawned pid=13243
+I, [2015-04-27T12:25:09.622192 #13240]  INFO -- : master process ready
+I, [2015-04-27T12:25:09.630521 #13246]  INFO -- : worker=1 spawned pid=13246
+I, [2015-04-27T12:25:09.665070 #13246]  INFO -- : worker=1 ready
+I, [2015-04-27T12:25:09.665899 #13243]  INFO -- : worker=0 ready
+I, [2015-04-27T12:25:17.663611 #13240]  INFO -- : reaped #<Process::Status: pid 13243 exit 0> worker=0
+I, [2015-04-27T12:25:17.663994 #13240]  INFO -- : reaped #<Process::Status: pid 13246 exit 0> worker=1
+I, [2015-04-27T12:25:17.664187 #13240]  INFO -- : master complete
+I, [2015-04-27T12:25:52.382468 #13491]  INFO -- : Refreshing Gem list
+I, [2015-04-27T12:25:53.960080 #13491]  INFO -- : unlinking existing socket=/home/noface/otterhiverails/shared/sockets/unicorn.sock
+I, [2015-04-27T12:25:53.960337 #13491]  INFO -- : listening on addr=/home/noface/otterhiverails/shared/sockets/unicorn.sock fd=11
+I, [2015-04-27T12:25:53.960480 #13491]  INFO -- : worker=0 spawning...
+I, [2015-04-27T12:25:53.961763 #13491]  INFO -- : worker=1 spawning...
+I, [2015-04-27T12:25:53.962533 #13494]  INFO -- : worker=0 spawned pid=13494
+I, [2015-04-27T12:25:53.965286 #13491]  INFO -- : master process ready
+I, [2015-04-27T12:25:53.973524 #13497]  INFO -- : worker=1 spawned pid=13497
+I, [2015-04-27T12:25:53.979992 #13494]  INFO -- : worker=0 ready
+I, [2015-04-27T12:25:53.985015 #13497]  INFO -- : worker=1 ready
+I, [2015-04-27T12:37:00.766845 #13491]  INFO -- : reaped #<Process::Status: pid 13494 exit 0> worker=0
+I, [2015-04-27T12:37:00.767292 #13491]  INFO -- : reaped #<Process::Status: pid 13497 exit 0> worker=1
+I, [2015-04-27T12:37:00.767539 #13491]  INFO -- : master complete
+I, [2015-04-27T12:37:12.314932 #13717]  INFO -- : Refreshing Gem list
+I, [2015-04-27T12:37:13.942364 #13717]  INFO -- : unlinking existing socket=/home/noface/otterhiverails/shared/sockets/unicorn.sock
+I, [2015-04-27T12:37:13.942667 #13717]  INFO -- : listening on addr=/home/noface/otterhiverails/shared/sockets/unicorn.sock fd=11
+I, [2015-04-27T12:37:13.942848 #13717]  INFO -- : worker=0 spawning...
+I, [2015-04-27T12:37:13.944838 #13717]  INFO -- : worker=1 spawning...
+I, [2015-04-27T12:37:13.945908 #13717]  INFO -- : master process ready
+I, [2015-04-27T12:37:13.953691 #13720]  INFO -- : worker=0 spawned pid=13720
+I, [2015-04-27T12:37:13.961270 #13722]  INFO -- : worker=1 spawned pid=13722
+I, [2015-04-27T12:37:13.968009 #13720]  INFO -- : worker=0 ready
+I, [2015-04-27T12:37:13.975704 #13722]  INFO -- : worker=1 ready
+I, [2015-04-27T16:47:04.722961 #13717]  INFO -- : reaped #<Process::Status: pid 13720 exit 0> worker=0
+I, [2015-04-27T16:47:04.723551 #13717]  INFO -- : reaped #<Process::Status: pid 13722 exit 0> worker=1
+I, [2015-04-27T16:47:04.723675 #13717]  INFO -- : master complete
+I, [2015-04-27T16:47:13.986747 #17463]  INFO -- : Refreshing Gem list
+I, [2015-04-27T16:47:15.553056 #17463]  INFO -- : unlinking existing socket=/home/noface/otterhiverails/shared/sockets/unicorn.sock
+I, [2015-04-27T16:47:15.553295 #17463]  INFO -- : listening on addr=/home/noface/otterhiverails/shared/sockets/unicorn.sock fd=11
+I, [2015-04-27T16:47:15.553447 #17463]  INFO -- : worker=0 spawning...
+I, [2015-04-27T16:47:15.554735 #17463]  INFO -- : worker=1 spawning...
+I, [2015-04-27T16:47:15.555440 #17466]  INFO -- : worker=0 spawned pid=17466
+I, [2015-04-27T16:47:15.556996 #17463]  INFO -- : master process ready
+I, [2015-04-27T16:47:15.565095 #17469]  INFO -- : worker=1 spawned pid=17469
+I, [2015-04-27T16:47:15.574028 #17466]  INFO -- : worker=0 ready
+I, [2015-04-27T16:47:15.574736 #17469]  INFO -- : worker=1 ready
+I, [2015-04-27T16:50:40.331800 #17463]  INFO -- : reaped #<Process::Status: pid 17466 exit 0> worker=0
+I, [2015-04-27T16:50:40.332086 #17463]  INFO -- : reaped #<Process::Status: pid 17469 exit 0> worker=1
+I, [2015-04-27T16:50:40.332216 #17463]  INFO -- : master complete
+I, [2015-04-27T16:50:48.135035 #17674]  INFO -- : Refreshing Gem list
+I, [2015-04-27T16:50:49.640860 #17674]  INFO -- : unlinking existing socket=/home/noface/otterhiverails/shared/sockets/unicorn.sock
+I, [2015-04-27T16:50:49.641060 #17674]  INFO -- : listening on addr=/home/noface/otterhiverails/shared/sockets/unicorn.sock fd=11
+I, [2015-04-27T16:50:49.641207 #17674]  INFO -- : worker=0 spawning...
+I, [2015-04-27T16:50:49.642445 #17674]  INFO -- : worker=1 spawning...
+I, [2015-04-27T16:50:49.643157 #17674]  INFO -- : master process ready
+I, [2015-04-27T16:50:49.649140 #17677]  INFO -- : worker=0 spawned pid=17677
+I, [2015-04-27T16:50:49.655655 #17679]  INFO -- : worker=1 spawned pid=17679
+I, [2015-04-27T16:50:49.659594 #17679]  INFO -- : worker=1 ready
+I, [2015-04-27T16:50:49.661779 #17677]  INFO -- : worker=0 ready
+I, [2015-04-28T15:39:34.642601 #17674]  INFO -- : reaped #<Process::Status: pid 17677 exit 0> worker=0
+I, [2015-04-28T15:39:34.643115 #17674]  INFO -- : reaped #<Process::Status: pid 17679 exit 0> worker=1
+I, [2015-04-28T15:39:34.643367 #17674]  INFO -- : master complete
+I, [2015-04-28T15:39:41.427307 #21079]  INFO -- : Refreshing Gem list
+I, [2015-04-28T15:39:43.009525 #21079]  INFO -- : unlinking existing socket=/home/noface/otterhiverails/shared/sockets/unicorn.sock
+I, [2015-04-28T15:39:43.010229 #21079]  INFO -- : listening on addr=/home/noface/otterhiverails/shared/sockets/unicorn.sock fd=11
+I, [2015-04-28T15:39:43.010371 #21079]  INFO -- : worker=0 spawning...
+I, [2015-04-28T15:39:43.011749 #21079]  INFO -- : worker=1 spawning...
+I, [2015-04-28T15:39:43.013154 #21079]  INFO -- : master process ready
+I, [2015-04-28T15:39:43.019740 #21082]  INFO -- : worker=0 spawned pid=21082
+I, [2015-04-28T15:39:43.021098 #21085]  INFO -- : worker=1 spawned pid=21085
+I, [2015-04-28T15:39:43.030957 #21082]  INFO -- : worker=0 ready
+I, [2015-04-28T15:39:43.034141 #21085]  INFO -- : worker=1 ready
+I, [2015-04-28T15:40:30.417570 #21079]  INFO -- : reaped #<Process::Status: pid 21082 exit 0> worker=0
+I, [2015-04-28T15:40:30.417903 #21079]  INFO -- : reaped #<Process::Status: pid 21085 exit 0> worker=1
+I, [2015-04-28T15:40:30.418124 #21079]  INFO -- : master complete
+I, [2015-04-28T15:40:54.522843 #21332]  INFO -- : Refreshing Gem list
+I, [2015-04-28T15:40:56.052142 #21332]  INFO -- : unlinking existing socket=/home/noface/otterhiverails/shared/sockets/unicorn.sock
+I, [2015-04-28T15:40:56.052402 #21332]  INFO -- : listening on addr=/home/noface/otterhiverails/shared/sockets/unicorn.sock fd=11
+I, [2015-04-28T15:40:56.052556 #21332]  INFO -- : worker=0 spawning...
+I, [2015-04-28T15:40:56.053805 #21332]  INFO -- : worker=1 spawning...
+I, [2015-04-28T15:40:56.054519 #21332]  INFO -- : master process ready
+I, [2015-04-28T15:40:56.061613 #21335]  INFO -- : worker=0 spawned pid=21335
+I, [2015-04-28T15:40:56.067609 #21337]  INFO -- : worker=1 spawned pid=21337
+I, [2015-04-28T15:40:56.071414 #21337]  INFO -- : worker=1 ready
+I, [2015-04-28T15:40:56.074358 #21335]  INFO -- : worker=0 ready
+I, [2015-04-28T15:43:22.610261 #21332]  INFO -- : reaped #<Process::Status: pid 21335 exit 0> worker=0
+I, [2015-04-28T15:43:22.610452 #21332]  INFO -- : reaped #<Process::Status: pid 21337 exit 0> worker=1
+I, [2015-04-28T15:43:22.610581 #21332]  INFO -- : master complete
+I, [2015-04-28T15:44:17.686665 #21591]  INFO -- : Refreshing Gem list
+I, [2015-04-28T15:44:19.622008 #21591]  INFO -- : unlinking existing socket=/home/noface/otterhiverails/shared/sockets/unicorn.sock
+I, [2015-04-28T15:44:19.622228 #21591]  INFO -- : listening on addr=/home/noface/otterhiverails/shared/sockets/unicorn.sock fd=11
+I, [2015-04-28T15:44:19.622374 #21591]  INFO -- : worker=0 spawning...
+I, [2015-04-28T15:44:19.623711 #21591]  INFO -- : worker=1 spawning...
+I, [2015-04-28T15:44:19.625014 #21591]  INFO -- : master process ready
+I, [2015-04-28T15:44:19.632534 #21594]  INFO -- : worker=0 spawned pid=21594
+I, [2015-04-28T15:44:19.635423 #21594]  INFO -- : worker=0 ready
+I, [2015-04-28T15:44:19.637766 #21597]  INFO -- : worker=1 spawned pid=21597
+I, [2015-04-28T15:44:19.643897 #21597]  INFO -- : worker=1 ready
