@@ -2,7 +2,7 @@ class WelcomeController < ApplicationController
   before_filter :log_visitor
   http_basic_authenticate_with name: 'otter', password: 'hive', only: ['authenticate']
 
-  skip_before_filter :require_admin, only: ['index', 'authenticate']
+  skip_before_filter :require_admin, only: ['index', 'authenticate', 'background']
 
   def index
   end
