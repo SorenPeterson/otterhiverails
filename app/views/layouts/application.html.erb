@@ -14,9 +14,7 @@
 
   <% if session[:background] %>
     <style type="text/css">
-      body {
-        background-image: url('/img/backgrounds/<%= session[:background] %>');
-      }
+      <%= render "themes/#{session[:background]}.css" %>
     </style>
   <% end %>
 </head>

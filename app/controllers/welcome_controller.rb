@@ -20,7 +20,7 @@ class WelcomeController < ApplicationController
     if params[:name] == 'none'
       session.delete(:background)
     else
-      session[:background] = params[:name] + '.' + params[:format]
+      session[:background] = params[:name]
     end
     redirect_to :back
   end
