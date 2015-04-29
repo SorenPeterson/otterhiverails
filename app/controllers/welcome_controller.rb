@@ -18,9 +18,9 @@ class WelcomeController < ApplicationController
 
   def background
     if params[:name] == 'none'
-      session.delete(:background)
+      session.delete(:theme)
     else
-      session[:background] = params[:name]
+      session[:theme] = params[:name]
     end
     redirect_to :back
   end

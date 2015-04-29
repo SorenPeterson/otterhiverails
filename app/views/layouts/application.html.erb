@@ -12,11 +12,7 @@
 
   <link rel="icon" type="image/png" href="/img/soren.png">
 
-  <% if session[:background] %>
-    <style type="text/css">
-      <%= render "themes/#{session[:background]}.css" %>
-    </style>
-  <% end %>
+  <%= get_theme %>
 </head>
 <body>
 

@@ -5,6 +5,8 @@ class ApplicationController < ActionController::Base
 
   before_filter :require_admin
 
+  helper_method :get_theme
+
   def require_admin
     session[:return_to] = request.original_fullpath
     unless is_admin?
@@ -16,5 +18,10 @@ class ApplicationController < ActionController::Base
 
   def is_admin?
     session[:is_admin] == true
+  end
+
+  def get_theme
+    session.delete(:theme) unless ['doge', 'tommy', 'spongebob'].include?(session[:theme])
+    render(session[:theme] ? { partial: 'themes/' + session[:theme] } : { inline: '' }).first
   end
 end
