@@ -8,6 +8,6 @@ class ResumesController < ApplicationController
 
 	def doge
 		redirect_to :index unless params['doge'] = 'abcdef'
-		render 'index', layout: false
+		render :index, layout: false
 	end
 end
