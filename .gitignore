@@ -36,3 +36,5 @@ bower.json
 
 # Ignore rbenv environment settings
 .rbenv-vars
+
+**/*.sw*
