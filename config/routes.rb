@@ -2,6 +2,7 @@ Rails.application.routes.draw do
   get 'admin', to: 'welcome#authenticate'
 
   get 'resumes/index'
+  get 'resumes/doge'
 
   root 'welcome#index'
   get 'info' => 'welcome#info'
